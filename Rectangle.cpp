@@ -11,13 +11,14 @@ class Rectangle
 	cout<<"Enter l:"<<endl;
 	cin>>l;
 	cout<<"Enter b:"<<endl;
+	cin>>b;
 	}
 	float area();
 	float perimeter();
         void display()
 	{
-	cout<<"The area is:"<<endl;
-	cout<<"The perimeter is:"<<endl;
+	cout<<"The area is:"<<area()<<endl;
+	cout<<"The perimeter is:"<<perimeter()<<endl;
 	}
 };
 	float Rectangle::area()
@@ -35,3 +36,4 @@ r.accept();
 r.display();
 return 0;
 }
+
